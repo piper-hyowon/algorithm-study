@@ -1,0 +1,15 @@
+# Node
+node_modules/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Java
+*.class
+target/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
