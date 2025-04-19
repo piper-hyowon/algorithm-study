@@ -1,3 +1,14 @@
+// 인접 리스트로 표현된 그래프
+
+const graph = {
+  A: ["B", "C"],
+  B: ["A", "D", "E"],
+  C: ["A", "F"],
+  D: ["B"],
+  E: ["B", "F"],
+  F: ["C", "E"],
+};
+
 function bfs(graph, start) {
   const queue = [start];
   const visited = new Set([start]);
